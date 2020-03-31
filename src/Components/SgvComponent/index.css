@@ -1,0 +1,30 @@
+.table {
+  cursor: move;
+}
+.pk-number {
+  position: absolute;
+}
+.ref-text {
+  display: none;
+}
+.path-svg {
+  stroke-width: 2px;
+  overflow: visible !important;
+}
+
+.path {
+  stroke: #a3bffa;
+  stroke-width: 2px;
+}
+
+.path-svg:hover .ref-text {
+  display: block;
+}
+.path-svg:hover .path {
+  stroke: #9ae6b4;
+  stroke-width: 4px;
+}
+.path-svg:hover {
+  stroke-width: 5px;
+}
+

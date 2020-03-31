@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+}
+.left-tool-bar {
+  width: 400px;
+  flex-shrink: 0;
+  border: 1px solid black;
+  padding: 2rem;
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.ck_editor-container {
+  width: 100%;
+}
+
+.submit-description {
+  margin-top: 20px;
+  float: right;
+}
+.ant-drawer-left.ant-drawer-open,
+.ant-drawer-right.ant-drawer-open {
+  width: unset !important;
+}
+.ck-content {
+  min-height: 70vh !important;
+}
+.ck-rounded-corners .ck.ck-editor__editable:not(.ck-editor__nested-editable),
+.ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-rounded-corners {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
